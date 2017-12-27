@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 26//開發的SDK版本
     defaultConfig {
         applicationId "com.cyw.caculator"
-        minSdkVersion 21
+        minSdkVersion 21//最低支援SDK版本, 若低於21,直接看不到app
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
